@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
          int position = spinnerColors.getSelectedItemPosition();
         String description = getDescriptionByPosition(position);
         txtDescription.setText(description);
-        Toast.makeText(this, String.valueOf(position), Toast.LENGTH_SHORT).show();
+
 
     }
 
